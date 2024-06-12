@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent message="Hello from App Component!" />
+      <MainContent message="Hello from App Component!" info="Info from App Component!" />
       <Footer />
     </div>
   );

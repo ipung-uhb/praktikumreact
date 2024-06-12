@@ -5,7 +5,7 @@ class ClassComponent extends Component {
         return (
             <div>
                 <h2>This is a Class Component</h2>
-                <p>Class components can have their own methods and lifecycle hooks.</p>
+                <p>{this.props.info}</p>
             </div>
         );
     }

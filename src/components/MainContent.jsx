@@ -6,7 +6,7 @@ const MainContent = (props) => {
     return (
         <main>
             <FunctionalComponent message={props.message}/>
-            <ClassComponent />
+            <ClassComponent info={props.info}/>
         </main>
     );
 }

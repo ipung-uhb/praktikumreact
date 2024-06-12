@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header title="Welcome to the React Practice Module"/>
       <MainContent message="Hello from App Component!" info="Info from App Component!" />
-      <Footer />
+      <Footer copyright="&copy; 2024 React Practice Module. All rights reserved."/>
     </div>
   );
 }

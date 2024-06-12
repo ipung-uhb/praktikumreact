@@ -2,10 +2,10 @@ import React from 'react';
 import FunctionalComponent from './FunctionalComponent';
 import ClassComponent from './ClassComponent';
 
-const MainContent = () => {
+const MainContent = (props) => {
     return (
         <main>
-            <FunctionalComponent />
+            <FunctionalComponent message={props.message}/>
             <ClassComponent />
         </main>
     );

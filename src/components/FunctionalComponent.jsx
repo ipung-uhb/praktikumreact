@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 const FunctionalComponent = (props) => {
-    const [count, setCount] = useState(0);
+    const numvalue = parseInt(props.numvalue)
+    const [count, setCount] = useState(numvalue);
 
     return (
         <div>

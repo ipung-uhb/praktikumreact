@@ -5,7 +5,7 @@ import ClassComponent from './ClassComponent';
 const MainContent = (props) => {
     return (
         <main>
-            <FunctionalComponent message={props.message}/>
+            <FunctionalComponent message={props.message} numvalue={props.numvalue}/>
             <ClassComponent info={props.info}/>
         </main>
     );

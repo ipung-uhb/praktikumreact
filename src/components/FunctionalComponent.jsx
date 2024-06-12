@@ -18,8 +18,14 @@ const FunctionalComponent = (props) => {
         setCount(count - inputValue);
     };
 
+    const containerStyle = {
+        backgroundColor: count >= 10 ? 'lightgreen' : 'white',
+        padding: '20px',
+        borderRadius: '5px'
+    };
+
     return (
-        <div>
+        <div style={containerStyle}>
             <h2>This is a Functional Component</h2>
             <p><p>{props.message}</p></p>
 
@@ -31,7 +37,7 @@ const FunctionalComponent = (props) => {
                 onChange={handleInputChange}
                 placeholder="Enter a number"
             />
-            
+
             <button onClick={decrement}>-</button>
         </div>
 
